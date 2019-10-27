@@ -1,0 +1,89 @@
+
+body {
+  background-color: white;
+  margin: 0px;
+}
+
+.container {
+  width: 1500px;
+  margin: auto;
+}
+
+.main {
+  height: 900px;
+  background-image: url("./img/header.png");
+  background-position: absolut;
+  background-repeat: no-repeat;
+  
+   }
+
+              .header {
+                height: 130px;
+                display: flex;
+                align-items: flex-end;   
+              }
+
+             
+
+              .logo {
+                height: 80px;
+              }
+
+
+              .nav {
+                width: 20px;
+                height: 50px;
+              
+                .menu {
+                  width: 300px;
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                }
+
+                button {
+                  height: 60px;
+                  width: 200px;
+                  background-color: orange;
+                }
+
+                
+                /*align-items: flex-end;
+                justify-content: flex-end;
+                
+
+                font-size: 16px;
+                font-family: "Raleway";
+                color: rgb(38, 38, 38);
+                font-weight: bold;
+                text-transform: uppercase;
+              }  
+
+      
+
+              /*.logo {
+                height: 130px;
+                background-image: url(./img/logo.png);
+                align-items: flex-start;
+                position: absolute;
+              }*/
+
+              /*.menu {
+                align-items: flex-end;
+              }*/
+
+
+/*.HOME__________ABOUT__________SERVICES__________ {
+  font-size: 16px;
+  font-family: "Raleway";
+  color: rgb(38, 38, 38);
+  font-weight: bold;
+  line-height: 1.563;
+  text-align: right;
+  position: absolute;
+  left: 580.557px;
+  top: 91.546px;
+  width: 557px;
+  height: 12px;
+  z-index: 168;
+}*/
