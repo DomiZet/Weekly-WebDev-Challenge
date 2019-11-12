@@ -88,13 +88,6 @@ body {
   
 
 
-  /*.About_Us {
-    
-    position: absolute;
-    left: 832.879px;
-    top: 1200px;
-    z-index: 149;
-  }*/
   
 
 .services {
@@ -109,11 +102,58 @@ body {
   color:red;
 }
 
+
+
+
+
 .gallery {
   height: 1500px;
+  padding: 100px 150px;
   background-color: #ffe92f;
   background-position: relative;
 }
+
+    .gallery-wrap1 {
+      width: 1200px;
+      height: 580px;
+    }
+
+          .gallery-wrap-img1 {
+            width: 550px;
+            padding: 15px;
+          }
+                .gallery-wrap-img1 img {
+                  width: 770px;
+                  height: 550px;
+                }
+
+          .gallery-smallwrap {
+            width: 290px;
+            height
+          }
+                .gallery-wrap-img2, .gallery-wrap-img2 {
+                  width: 370px;
+                  height: 260px;
+                  padding: 15px;
+                }
+
+            
+
+    .gallery-wrap2 {
+      width: 1200px;
+      height: 430px;
+    }
+        
+        .gallery-wrap-img4, .gallery-wrap-img5 {
+          padding: 15px;
+        }
+
+         .gallery-wrap-img4 img, .gallery-wrap-img5 img {
+            width: 570px;
+            height: 400px;
+        }
+
+
 
 .subscribe {
   height: 500px;
