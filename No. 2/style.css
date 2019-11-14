@@ -92,16 +92,39 @@ body {
 
 .services {
   height: 800px;
+  padding: 150px;
   background-color: #70bfff;
-  background-position: relative;
-}
+  }
                 
-.nagłówek {
-  font-size: 50px;
-  font-weight: bold;
-  color:red;
-}
+      .services-1, .services-2 {
+        width: 600px;
+        height: 460px;
+        background-color: chartreuse;
+        float: left;
+      }
 
+      .services-2 {
+        width: 600px;
+        height: 460px;
+        background-color: burlywood;
+        float: left;
+      }
+
+              .services-img {
+                width: 470px;
+                height: 540px;
+                position: relative;
+                z-index: 1;
+              }
+
+              .services-h1 {
+                font-size: 50px;
+                font-weight: bold;
+                color: white;
+                text-align: center;
+                position: relative;
+                z-index: 1000;
+              }
 
 
 
